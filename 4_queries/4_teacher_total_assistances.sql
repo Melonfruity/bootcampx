@@ -15,3 +15,16 @@ SELECT DISTINCT teachers.name, cohorts.name as cohort, count(assistance_requests
 -- WHERE cohorts.name = 'JUL02'
 -- GROUP BY teachers.name, cohorts.name
 -- ORDER BY teacher;
+
+-- CREATE TABLE users (
+--   id INTEGER PRIMARY KEY,
+--   name VARCHAR(255),
+--   birth_year SMALLINT,
+--   member_since TIMESTAMP
+-- );
+
+-- ALTER TABLE users ADD COLUMN name VARCHAR(255);
+-- ALTER TABLE users ADD COLUMN birth_year SMALLINT;
+-- ALTER TABLE users ADD COLUMN member_since TIMESTAMP;
+
+-- ALTER TABLE users ALTER COLUMN member_since [SET DEFAULT Now()]
